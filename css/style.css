@@ -24,7 +24,7 @@
 header{
     background-color:#FF6900;
     padding: 25px;
-    color: white;
+    
 }
 
 header div.flex-container-row{
@@ -48,6 +48,59 @@ header div svg{
     fill: white;
 }
 
+header li a {
+    color: white;
+    font-size: 18px;
+}
+
+main{
+    margin-top: 75px;
+    
+}
+/* .flex-container-column-main{
+    display: flex;
+    flex-direction: column;
+    justify-content:ends;
+    
+    }  */
+
 .levis1 img{
     width: 60%;
+}
+
+#position{
+    position: relative;
+}
+
+main picture figure span{
+    position: absolute;
+    bottom: 40px;
+    left: 63px;
+    z-index: 0;
+    background-color: #008000;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+main picture figure b{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    z-index: 0;
+    background-color:#FF0000;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+main picture figure{
+    background-color: blue;
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 700px;
+}
+
+.offert{
+    color: red;
 }
