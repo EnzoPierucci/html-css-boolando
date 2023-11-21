@@ -72,6 +72,16 @@ main section.flex-container-row{
     position: relative;
 }
 
+#variant{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    z-index: 0;
+    background-color: #008000;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
 main picture figure span{
     position: absolute;
     bottom: 40px;
@@ -183,4 +193,20 @@ picture.esprit figure{
 main section{
 
     margin-bottom: 35px;
+}
+
+
+footer{
+    display: flex;
+    justify-content:center;
+    gap: 600px;
+    
+    background-color: black;
+    color: white;
+    fill: white;
+    padding: 40px;
+}
+
+footer div svg{
+    font-size: 18px;
 }
