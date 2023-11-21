@@ -57,12 +57,14 @@ main{
     margin-top: 75px;
     
 }
-/* .flex-container-column-main{
+
+main section.flex-container-row{
     display: flex;
-    flex-direction: column;
-    justify-content:ends;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
     
-    }  */
+}
 
 .levis1 img{
     width: 60%;
@@ -92,6 +94,18 @@ main picture figure b{
     padding: 5px 10px 5px 10px;
 }
 
+main picture figure .heart{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+
+}
+
 main picture figure{
     background-color: blue;
     background-image: url(../img/1.webp);
@@ -101,6 +115,9 @@ main picture figure{
     height: 700px;
 }
 
+
+
 .offert{
     color: red;
 }
+
