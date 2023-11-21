@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    
+    } 
+
+.flex-container-row{
+        display: flex;
+        
+}
+
+header{
+    background-color:#FF6900;
+}
