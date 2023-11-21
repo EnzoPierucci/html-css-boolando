@@ -66,9 +66,7 @@ main section.flex-container-row{
     
 }
 
-.levis1 img{
-    width: 60%;
-}
+
 
 #position{
     position: relative;
@@ -106,8 +104,7 @@ main picture figure .heart{
 
 }
 
-main picture figure{
-    background-color: blue;
+main picture.levis1 figure{
     background-image: url(../img/1.webp);
     background-size: cover;
     background-position: center;
@@ -115,9 +112,75 @@ main picture figure{
     height: 700px;
 }
 
+.levis1 img{
+    width: 60%;
+}
 
+picture.guess figure{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 700px;
+}
+
+.guess img{
+    width: 60%;
+}
+
+picture.zucchero figure{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 700px;
+}
+
+.zucchero img{
+    width: 60%;
+}
+
+picture.levis2 figure{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 700px;
+}
+
+.levis2 img{
+    width: 60%;
+}
+
+picture.maya figure{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 700px;
+}
+
+.maya img{
+    width: 60%;
+}
+
+picture.esprit figure{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 700px;
+}
+
+.esprit img{
+    width: 60%;
+}
 
 .offert{
     color: red;
 }
 
+main section{
+
+    margin-bottom: 35px;
+}
