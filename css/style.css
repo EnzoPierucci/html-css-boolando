@@ -216,3 +216,7 @@ footer{
 footer div svg{
     font-size: 18px;
 }
+
+.price{
+    text-decoration: line-through;
+}
